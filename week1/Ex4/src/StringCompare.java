@@ -10,5 +10,6 @@ public class StringCompare {
         } else {
             System.out.println("Strings are not equal");
         }
+        scanner.close();
     }
 }

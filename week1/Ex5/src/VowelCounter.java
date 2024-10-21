@@ -18,5 +18,6 @@ public class VowelCounter {
         String input = keyboard.nextLine();
         int count = countVowels(input);
         System.out.println("Number of vowels: " + count);
+        keyboard.close();
     }
 }
